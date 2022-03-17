@@ -61,7 +61,11 @@ public class BrowserStackApis {
     public void getBrowserStackCredentials(){
         browserStackUserName = System.getenv("BROWSERSTACK_USERNAME");
         if (browserStackUserName.contains("azure")){
+            System.out.println("Usernmae before"+browserStackUserName);
+            System.out.println("I'm inside this");
+
             browserStackUserName=browserStackUserName.replace("-azure","");
+            System.out.println("Usernmae after"+browserStackUserName);
         }
         browserStackPassword = System.getenv("BROWSERSTACK_ACCESS_KEY");
     }
