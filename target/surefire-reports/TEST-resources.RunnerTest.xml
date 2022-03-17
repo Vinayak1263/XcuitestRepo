@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="resources.RunnerTest" time="18.887" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/target/test-classes:/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/target/classes:/Users/aacharya/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/aacharya/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/aacharya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aacharya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aacharya/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/aacharya/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/aacharya/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/aacharya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/aacharya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/aacharya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/aacharya/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/aacharya/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/aacharya/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/aacharya/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/aacharya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aacharya/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/aacharya/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aacharya/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/aacharya/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/aacharya/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/aacharya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/aacharya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/aacharya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aacharya/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/aacharya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/aacharya/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aacharya/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/aacharya/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/aacharya/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/aacharya/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/aacharya/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/aacharya/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/aacharya/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/aacharya/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/aacharya/.m2/repository/org/json/json/20201115/json-20201115.jar:/Users/aacharya/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/aacharya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/target/surefire/surefirebooter17130369365771600017.jar /Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/target/surefire 2022-03-16T19-16-21_409-jvmRun1 surefire4223757248731230736tmp surefire_015225889476693851391tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/target/test-classes:/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/target/classes:/Users/aacharya/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/aacharya/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/aacharya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aacharya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aacharya/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/aacharya/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/aacharya/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/aacharya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/aacharya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/aacharya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/aacharya/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/aacharya/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/aacharya/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/aacharya/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/aacharya/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/aacharya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aacharya/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/aacharya/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aacharya/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/aacharya/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/aacharya/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/aacharya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/aacharya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/aacharya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aacharya/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/aacharya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/aacharya/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aacharya/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/aacharya/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/aacharya/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/aacharya/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/aacharya/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/aacharya/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/aacharya/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/aacharya/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/aacharya/.m2/repository/org/json/json/20201115/json-20201115.jar:/Users/aacharya/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/aacharya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/aacharya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/target/surefire/surefirebooter17130369365771600017.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="aacharya"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/aacharya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/sd/7tn40r213t78g_tnw3m4nf7w0000gn/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/aacharya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="uploadAndTriggerXCUITest" classname="resources.RunnerTest" time="18.832">
+    <system-out><![CDATA[/********* STEP TO UPLOAD XCUITEST SUITE TO BROWSERSTACK *************/
+Request method:	POST
+Request URI:	https://api-cloud.browserstack.com/app-automate/xcuitest/test-suite
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YW5hbmRhY2hhcnlhMzp4SlJvenR3Ump5c1hSeDJIeVBHSA==
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = WooliesGOUITests-Runner.zip
+				Content-Type: multipart/form-data
+
+				/Users/aacharya/workspace/WooliesGo_IOS_AutomationTests/src/test/java/resources/WooliesGOUITests-Runner.zip
+Body:			<none>
+Sent request to upload xcuitest suite: 200
+Response body is {"test_url":"bs://546176c1ead68cf1150f9349009f46cf69f0b309"}
+Test url is :bs://546176c1ead68cf1150f9349009f46cf69f0b309
+/********* STEP TO RUN XCUITEST SUITE ON BROWSERSTACK *************/
+Request method:	POST
+Request URI:	https://api-cloud.browserstack.com/app-automate/xcuitest/v2/build
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YW5hbmRhY2hhcnlhMzp4SlJvenR3Ump5c1hSeDJIeVBHSA==
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "shards": {
+        "numberOfShards": 10,
+        "deviceSelection": "any",
+        "mapping": [
+            {
+                "name": "Shard 1",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/End2EndNormalRouteTest2"
+                ]
+            },
+            {
+                "name": "Shard 2",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/End2EndNormalRouteTest4"
+                ]
+            },
+            {
+                "name": "Shard 3",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/End2EndNormalRouteTest5"
+                ]
+            },
+            {
+                "name": "Shard 4",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/End2EndNormalRouteTest6"
+                ]
+            },
+            {
+                "name": "Shard 5",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/EndToEndManualRouteTest"
+                ]
+            },
+            {
+                "name": "Shard 6",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/EndToEndMultiLoadRouteTest"
+                ]
+            },
+            {
+                "name": "Shard 7",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/End2EndNominatedIdNormalRouteTest"
+                ]
+            },
+            {
+                "name": "Shard 8",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/EndToEndNominatedIdManualRouteTest"
+                ]
+            },
+            {
+                "name": "Shard 9",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/EndToEndSecurityOnlyRouteTest"
+                ]
+            },
+            {
+                "name": "Shard 10",
+                "strategy": "only-testing",
+                "values": [
+                    "WooliesGOUITests/BottomBarTest"
+                ]
+            }
+        ]
+    },
+    "deviceLogs": "true",
+    "networkLogs": "true",
+    "local": "true",
+    "devices": [
+        "iPhone 11-15",
+        "iPhone XS-14",
+        "iPhone 12 Pro-14",
+        "iPhone 12-14",
+        "iPhone 13 Mini-15",
+        "iPhone 12 Mini-14",
+        "iPhone XS-15",
+        "iPhone 13-15"
+    ],
+    "app": "bs://b05c055828a88368c81218aa6b740455c6103773",
+    "testSuite": "bs://546176c1ead68cf1150f9349009f46cf69f0b309"
+}
+Sent request to trigger automation tests : 200
+Response body is {"message":"Success","build_id":"ef843ade2d7039da0cafd9165ddd79e8ccab3657"}
+Build id is :ef843ade2d7039da0cafd9165ddd79e8ccab3657
+]]></system-out>
+  </testcase>
+</testsuite>
