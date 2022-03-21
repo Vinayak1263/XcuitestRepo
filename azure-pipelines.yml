@@ -17,7 +17,9 @@ steps:
     BrowserStackServiceEndPoint: 'Vinayak Bstack'
     browserstackLocal: true
     
-
+- task: CmdLine@2
+  inputs:
+    script: 'printenv'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
