@@ -5,8 +5,9 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-
+import com.browserstack.local.Local;
 import java.io.File;
+import java.util.HashMap;
 
 public class BrowserStackApis {
 
@@ -14,6 +15,7 @@ public class BrowserStackApis {
     String buildId;
     String browserStackUserName;
     String browserStackPassword;
+    Local bsLocal = new Local();
 
     public void uploadXCUITests(){
         RestAssured.baseURI = "https://api-cloud.browserstack.com/app-automate/";
@@ -68,5 +70,24 @@ public class BrowserStackApis {
         //     System.out.println("Usernmae after"+browserStackUserName);
         // }
         browserStackPassword = System.getenv("BROWSERSTACK_ACCESS_KEY");
+    }
+
+    public void startlocal() throws Exception {
+       
+
+        // You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
+        HashMap<String, String> bsLocalArgs = new HashMap<String, String>();
+        bsLocalArgs.put("key",browserStackPassword);
+      
+        // Starts the Local instance with the required arguments
+        bsLocal.start(bsLocalArgs);
+      
+        // Check if BrowserStack local instance is running
+        System.out.println("Local is running ?"+bsLocal.isRunning());
+
+    }
+
+    public void stoplocal() throws Exception {
+        bsLocal.stop();    
     }
 }
