@@ -39,6 +39,16 @@ public class BrowserStackApis {
     }
 
     public void triggerXCUITestsOnParallelMode(){
+
+        // HashMap<String, String> bsLocalArgs = new HashMap<String, String>();
+        // bsLocalArgs.put("key",browserStackPassword);
+      
+        // // Starts the Local instance with the required arguments
+        // bsLocal.start(bsLocalArgs);
+      
+        // // Check if BrowserStack local instance is running
+        // System.out.println("Local is running ?"+bsLocal.isRunning());
+
         RestAssured.baseURI = "https://api-cloud.browserstack.com/app-automate/";
         String basePath = "xcuitest/v2/build";
         RequestSpecification request = RestAssured.given().log().all();
@@ -58,6 +68,8 @@ public class BrowserStackApis {
             buildId = js.getString("build_id");
             System.out.println("Build id is :"+buildId);
         }
+
+        // bsLocal.stop();    
     }
 
     public void getBrowserStackCredentials(){
@@ -72,22 +84,5 @@ public class BrowserStackApis {
         browserStackPassword = System.getenv("BROWSERSTACK_ACCESS_KEY");
     }
 
-    public void startlocal() throws Exception {
-       
-
-        // You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
-        HashMap<String, String> bsLocalArgs = new HashMap<String, String>();
-        bsLocalArgs.put("key",browserStackPassword);
-      
-        // Starts the Local instance with the required arguments
-        bsLocal.start(bsLocalArgs);
-      
-        // Check if BrowserStack local instance is running
-        System.out.println("Local is running ?"+bsLocal.isRunning());
-
-    }
-
-    public void stoplocal() throws Exception {
-        bsLocal.stop();    
-    }
+ 
 }
