@@ -5,7 +5,9 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import com.browserstack.local.Local;
 import java.io.File;
+import java.util.HashMap;
 
 public class BrowserStackApis {
 
@@ -13,6 +15,7 @@ public class BrowserStackApis {
     String buildId;
     String browserStackUserName;
     String browserStackPassword;
+    Local bsLocal = new Local();
 
     public void uploadXCUITests(){
         RestAssured.baseURI = "https://api-cloud.browserstack.com/app-automate/";
@@ -35,16 +38,16 @@ public class BrowserStackApis {
         }
     }
 
-    public void triggerXCUITestsOnParallelMode(){
+    public void triggerXCUITestsOnParallelMode() throws Exception{
 
-        // HashMap<String, String> bsLocalArgs = new HashMap<String, String>();
-        // bsLocalArgs.put("key",browserStackPassword);
+        HashMap<String, String> bsLocalArgs = new HashMap<String, String>();
+        bsLocalArgs.put("key",browserStackPassword);
       
-        // // Starts the Local instance with the required arguments
-        // bsLocal.start(bsLocalArgs);
+        // Starts the Local instance with the required arguments
+        bsLocal.start(bsLocalArgs);
       
-        // // Check if BrowserStack local instance is running
-        // System.out.println("Local is running ?"+bsLocal.isRunning());
+        // Check if BrowserStack local instance is running
+        System.out.println("Local is running ?"+bsLocal.isRunning());
 
         RestAssured.baseURI = "https://api-cloud.browserstack.com/app-automate/";
         String basePath = "xcuitest/v2/build";
@@ -66,7 +69,7 @@ public class BrowserStackApis {
             System.out.println("Build id is :"+buildId);
         }
 
-        // bsLocal.stop();    
+          
     }
 
     public void getBrowserStackCredentials(){
