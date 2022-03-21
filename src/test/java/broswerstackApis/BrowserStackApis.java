@@ -5,9 +5,7 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import com.browserstack.local.Local;
 import java.io.File;
-import java.util.HashMap;
 
 public class BrowserStackApis {
 
@@ -15,7 +13,6 @@ public class BrowserStackApis {
     String buildId;
     String browserStackUserName;
     String browserStackPassword;
-    Local bsLocal = new Local();
 
     public void uploadXCUITests(){
         RestAssured.baseURI = "https://api-cloud.browserstack.com/app-automate/";
