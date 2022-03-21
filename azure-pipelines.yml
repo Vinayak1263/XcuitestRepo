@@ -15,7 +15,6 @@ steps:
 - task: BrowserStackConfig@0
   inputs:
     BrowserStackServiceEndPoint: 'Vinayak Bstack'
-    browserstackLocal: true
     
 - task: CmdLine@2
   inputs:
