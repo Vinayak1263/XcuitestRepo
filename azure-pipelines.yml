@@ -12,10 +12,10 @@ pool:
 
 steps:
 
-
 - task: BrowserStackConfig@0
   inputs:
     BrowserStackServiceEndPoint: 'Vinayak Bstack'
+    browserstackLocal: true
     
 
 - task: Maven@3
